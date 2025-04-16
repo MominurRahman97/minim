@@ -1,0 +1,97 @@
+/*common css start*/
+body{
+	font-family: "Playfair Display", serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #626262;
+}
+/*common css end*/
+
+/* header staart*/
+
+header{
+	padding: 30px 0;
+	/*border: 1px solid;*/
+}
+.container{
+	overflow: hidden;
+	margin: 0 auto;
+	width: 90%;
+	/*border: 1px solid;*/
+
+}
+.logo{
+	margin-top: 12px;
+	float: left;
+	width: 12%;
+
+}
+.logo a{
+
+}
+
+.logo a img{
+	width: 100%;
+
+}
+.menu{
+	float: right;
+	width: 65%;
+
+}
+.menu ul{
+	float: right;
+
+}
+.menu ul li{
+	float: left;
+	list-style: none;
+}
+.menu ul li a{
+	display: inline-block;
+	margin: 0 40px;
+	color: #626262;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-bottom: 1px solid transparent;
+	transition: linear .33s;
+
+}
+.menu ul li a:hover{
+	border-bottom: 1px solid #000000;
+}
+/*header end*/
+
+
+/*article start*/
+
+.article{
+	padding: 100px 0;
+		list-style: none;
+
+}
+.container2{
+	margin: 0 auto;
+	width: 80%;
+	border: 1px solid red;
+
+}
+.a_content{
+
+}
+.c_light{
+	font-family: "Ubuntu", sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+.c_title{
+	font-size: 30px;
+	font-weight: 400;
+}
+.c_text{
+	line-height: 24px;
+}
+
+
+/*artcle end*/
